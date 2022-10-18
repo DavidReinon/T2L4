@@ -2,3 +2,6 @@ David Reinón García
 
 1.
 ls -l | awk '{print $9":"$5}'
+
+2.
+ls -l | awk '{print $9":"$5}' | sort -n
